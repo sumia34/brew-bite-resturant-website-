@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brew & Bite | Cozy Café Experience</title>
+    <meta
+      name="description"
+      content="Brew & Bite is a cozy café experience with artisan coffee, handcrafted meals, and an inviting atmosphere."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Main navigation">
+        <a href="#home" class="logo" aria-label="Brew and Bite home">
+          <span class="logo-mark">B</span>
+          <span class="logo-text">Brew & Bite</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu">
+          <a href="#home" class="active">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#about">About</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-inner">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Freshly brewed. Perfectly served.</p>
+            <h1>Where cozy mornings meet unforgettable bites.</h1>
+            <p class="hero-text">
+              Enjoy slow coffee, artisan brunch favorites, and warm hospitality in a space designed for lingering conversations and delicious moments.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#menu" class="btn btn-primary">View Menu</a>
+              <a href="#contact" class="btn btn-secondary">Contact Us</a>
+            </div>
+
+            <ul class="hero-meta" aria-label="Highlights">
+              <li>Organic beans</li>
+              <li>Brunch all day</li>
+              <li>Locally sourced</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal delay-1">
+            <div class="image-card main-card">
+              <img
+                src="assets/images/hero.jpg"
+                alt="A cozy café scene with a cup of coffee and a plate of avocado toast"
+              />
+            </div>
+            <div class="floating-badge badge-one">
+              <span class="badge-label">Signature</span>
+              <strong>Caramel Latte</strong>
+            </div>
+            <div class="floating-badge badge-two">
+              <span class="badge-label">Chef's Pick</span>
+              <strong>Avocado Toast</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu section" id="menu">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow accent">Our favorites</p>
+            <h2>Comfort food, crafted with care.</h2>
+          </div>
+
+          <div class="menu-grid">
+            <article class="menu-card reveal">
+              <div class="card-image">
+                <img src="assets/images/toast.jpg" alt="Illustrated avocado toast" />
+              </div>
+              <div class="card-body">
+                <div class="card-topline">
+                  <h3>Sunrise Toast</h3>
+                  <span class="price">$12</span>
+                </div>
+                <p>Avocado, ricotta, pickled onions, lemon zest, and sourdough crunch.</p>
+              </div>
+            </article>
+
+            <article class="menu-card reveal delay-1">
+              <div class="card-image">
+                <img src="assets/images/cafe-latte.jpg" alt="Illustrated caramel latte drink" />
+              </div>
+              <div class="card-body">
+                <div class="card-topline">
+                  <h3>Caramel Cloud</h3>
+                  <span class="price">$7</span>
+                </div>
+                <p>Espresso, velvety milk foam, caramel drizzle, and a hint of cinnamon.</p>
+              </div>
+            </article>
+
+            <article class="menu-card reveal delay-2">
+              <div class="card-image">
+                <img src="assets/images/garden-bowl.jpg" alt="Illustrated healthy bowl meal" />
+              </div>
+              <div class="card-body">
+                <div class="card-topline">
+                  <h3>Garden Bowl</h3>
+                  <span class="price">$14</span>
+                </div>
+                <p>Quinoa, roasted vegetables, greens, herbs, and tahini dressing.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="container about-grid">
+          <div class="about-image reveal">
+            <img src="assets/images/cafe-interior.jpg" alt="Illustrated cozy café interior" />
+          </div>
+          <div class="about-copy reveal delay-1">
+            <p class="eyebrow accent">About us</p>
+            <h2>The warmth of a neighborhood café.</h2>
+            <p>
+              Since opening our doors, Brew & Bite has blended slow coffee rituals, seasonal ingredients, and thoughtful service into a place that feels like home.
+            </p>
+            <p>
+              Whether you’re meeting friends, reading a book, or taking a breather from the day, our team brings a fresh, welcoming experience to every table.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section" id="gallery">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow accent">Gallery</p>
+            <h2>Made for slow sips and happy bites.</h2>
+          </div>
+
+          <div class="gallery-grid">
+            <div class="gallery-item reveal"><img src="assets/images/latte-art.jpg" alt="Illustrated latte art" /></div>
+            <div class="gallery-item reveal delay-1"><img src="assets/images/cafe-window.jpg" alt="Illustrated café window scene" /></div>
+            <div class="gallery-item reveal delay-2"><img src="assets/images/brunch-table.jpg" alt="Illustrated breakfast table" /></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-inner">
+        <div>
+          <a href="#home" class="logo footer-logo">
+            <span class="logo-mark">B</span>
+            <span class="logo-text">Brew & Bite</span>
+          </a>
+          <p>Crafted coffee, wholesome plates, and a welcoming neighborhood vibe.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#about">About</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-contact">
+          <p>hello@brewandbite.com</p>
+          <p>+1 (415) 555-0168</p>
+          <div class="socials" aria-label="Social media links">
+            <a href="#" aria-label="Instagram">◎</a>
+            <a href="#" aria-label="Facebook">◌</a>
+            <a href="#" aria-label="X">X</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> Brew & Bite. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
